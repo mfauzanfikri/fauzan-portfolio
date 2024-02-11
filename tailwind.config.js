@@ -7,6 +7,10 @@ export default {
         poppins: "Poppins, sans-serif",
         VT323: "VT323, sans-serif",
       },
+      colors: {
+        primary: "#0ea5e9",
+        dark: "#0f172a",
+      },
     },
   },
   plugins: [],
