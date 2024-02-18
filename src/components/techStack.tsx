@@ -17,7 +17,7 @@ const TechStack = () => {
           </div>
 
           <div className="w-full px-4">
-            <div className="flex max-w-5xl flex-wrap items-center justify-center gap-5">
+            <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-5">
               {/* HTML */}
               <div className="flex flex-col items-center text-center">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
