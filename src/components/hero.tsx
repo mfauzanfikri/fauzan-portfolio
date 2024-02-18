@@ -47,17 +47,16 @@ const Hero = () => {
                 alt="M. Fauzan Fikri"
                 className="mx-auto max-w-full"
               />
-              <span className="absolute bottom-4 left-1/2 -z-10 -translate-x-1/2 md:scale-125 lg:bottom-10">
+              <span className="absolute bottom-4 left-1/2 -z-10 -translate-x-1/2 overflow-hidden sm:scale-125 lg:bottom-10">
                 <svg
-                  width={400}
-                  height={400}
                   viewBox="0 0 200 200"
                   xmlns="http://www.w3.org/2000/svg"
+                  className="xs:w-[400px] w-80"
                 >
                   <path
                     fill="#0ea5e9"
                     d="M52,-54.2C65.7,-38.3,73.8,-19.2,75,1.1C76.1,21.5,70.3,42.9,56.6,58.5C42.9,74.1,21.5,83.7,2.2,81.5C-17,79.3,-34.1,65.2,-46.5,49.6C-58.9,34.1,-66.7,17,-66.2,0.4C-65.8,-16.2,-57.2,-32.4,-44.8,-48.3C-32.4,-64.1,-16.2,-79.7,1.5,-81.2C19.2,-82.6,38.3,-70.1,52,-54.2Z"
-                    transform="translate(100 100) scale(0.9)"
+                    transform="translate(100 100) scale(0.8)"
                   />
                 </svg>
               </span>

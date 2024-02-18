@@ -3,6 +3,9 @@ export default {
   content: ["index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xs: "420px",
+      },
       fontFamily: {
         poppins: "Poppins, sans-serif",
         VT323: "VT323, sans-serif",

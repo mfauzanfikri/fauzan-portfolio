@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <header
-      className={`${isScrolling ? "shadow-nav fixed z-[999] bg-opacity-60 backdrop-blur-[5px]" : "absolute"} left-0 top-0 z-10 flex w-full items-center bg-transparent`}
+      className={`${isScrolling ? "fixed z-[999] bg-opacity-60 shadow-nav backdrop-blur-[5px]" : "absolute"} left-0 top-0 z-10 flex w-full items-center bg-transparent`}
     >
       <div className="container mx-auto">
         <div className="relative flex items-center justify-between">
@@ -65,52 +65,42 @@ const Header = () => {
               className={`${!isActive && "hidden"} absolute right-4 top-[110%] w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none`}
             >
               <ul className="flex flex-col gap-2.5 lg:flex-row lg:gap-0">
-                <li className="group hover:cursor-pointer">
-                  <a
-                    href="#home"
-                    className="mx-8 py-2 text-base text-dark group-hover:text-primary lg:mx-2.5"
-                    onClick={navItemHandler}
-                  >
-                    Home
-                  </a>
-                </li>
-                <li className="group hover:cursor-pointer">
-                  <a
-                    href="#about"
-                    className="mx-8 py-2 text-base text-dark group-hover:text-primary lg:mx-2.5"
-                    onClick={navItemHandler}
-                  >
-                    About
-                  </a>
-                </li>
+                <a
+                  href="#home"
+                  className="mx-8 py-2 text-base text-dark hover:text-primary lg:mx-2.5"
+                  onClick={navItemHandler}
+                >
+                  <li>Home</li>
+                </a>
+                <a
+                  href="#about"
+                  className="mx-8 py-2 text-base text-dark hover:text-primary lg:mx-2.5"
+                  onClick={navItemHandler}
+                >
+                  <li>About</li>
+                </a>
 
-                <li className="group hover:cursor-pointer">
-                  <a
-                    href="#porfolio"
-                    className="mx-8 py-2 text-base text-dark group-hover:text-primary lg:mx-2.5"
-                    onClick={navItemHandler}
-                  >
-                    Portfolio
-                  </a>
-                </li>
-                <li className="group hover:cursor-pointer">
-                  <a
-                    href="#tech-stack"
-                    className="mx-8 py-2 text-base text-dark group-hover:text-primary lg:mx-2.5"
-                    onClick={navItemHandler}
-                  >
-                    Tech Stack
-                  </a>
-                </li>
-                <li className="group hover:cursor-pointer">
-                  <a
-                    href="#contact"
-                    className="mx-8 py-2 text-base text-dark group-hover:text-primary lg:mx-2.5"
-                    onClick={navItemHandler}
-                  >
-                    Contact
-                  </a>
-                </li>
+                <a
+                  href="#porfolio"
+                  className="mx-8 py-2 text-base text-dark hover:text-primary lg:mx-2.5"
+                  onClick={navItemHandler}
+                >
+                  <li>Portfolio</li>
+                </a>
+                <a
+                  href="#tech-stack"
+                  className="mx-8 py-2 text-base text-dark hover:text-primary lg:mx-2.5"
+                  onClick={navItemHandler}
+                >
+                  <li>Tech Stack</li>
+                </a>
+                <a
+                  href="#contact"
+                  className="mx-8 py-2 text-base text-dark hover:text-primary lg:mx-2.5"
+                  onClick={navItemHandler}
+                >
+                  <li>Contact</li>
+                </a>
               </ul>
             </nav>
           </div>

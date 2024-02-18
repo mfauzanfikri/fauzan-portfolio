@@ -7,7 +7,7 @@ const Contact = () => {
             <h2 className="mb-4 text-3xl font-bold sm:text-4xl lg:text-5xl">
               Contact Me
             </h2>
-            <p className="text-secondary text-base font-medium md:text-lg">
+            <p className="text-base font-medium text-secondary md:text-lg">
               You can contact me for business below.
             </p>
           </div>
@@ -33,7 +33,7 @@ const Contact = () => {
               <p className="text-sm lg:text-base">Chat me via WhatsApp</p>
             </div>
             <div className="flex w-1/2 items-center justify-end lg:w-[20%]">
-              <a href="mailto:mfauzanfikri09@gmail.com">
+              <a href="https://wa.link/0afted">
                 <button className="rounded-lg bg-primary px-3 py-1.5 text-sm text-white hover:opacity-80 md:text-base">
                   Chat Me
                 </button>

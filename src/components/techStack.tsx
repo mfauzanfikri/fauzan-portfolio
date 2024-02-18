@@ -1,6 +1,6 @@
 const TechStack = () => {
   return (
-    <section id="tech-stack" className="bg-slate-700 pb-16 pt-36 text-white">
+    <section id="tech-stack" className="bg-slate-700 py-28 text-white">
       <div className="container mx-auto">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 max-w-xl text-center">
