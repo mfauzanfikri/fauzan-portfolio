@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+  @apply text-blue-600 underline visited:text-blue-700 hover:text-blue-500 focus:text-blue-500;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cbd5e1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #075985;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #082f49;
+}

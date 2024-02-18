@@ -9,7 +9,11 @@ export default {
       },
       colors: {
         primary: "#0ea5e9",
+        secondary: "#475569",
         dark: "#0f172a",
+      },
+      boxShadow: {
+        nav: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.2)",
       },
     },
   },

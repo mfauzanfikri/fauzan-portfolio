@@ -2,17 +2,17 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
-    <section id="hero" className="pt-36">
+    <section id="home" className="pt-36">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap flex-col lg:flex-row">
+        <div className="flex flex-col flex-wrap lg:flex-row">
           <div className="w-full self-center font-VT323 lg:w-1/2">
             <h1 className="font-medium text-primary md:text-2xl ">
               Hi, there! This is me,
-              <span className="block font-bold text-4xl text-dark lg:text-6xl">
+              <span className="block text-4xl font-bold text-dark lg:text-6xl">
                 M. Fauzan Fikri
               </span>
             </h1>
-            <h2 className="text-slate-600 text-lg mb-5 lg:text-3xl">
+            <h2 className="text-secondary mb-5 text-lg lg:text-3xl">
               I'm a{" "}
               <span className="font-bold text-dark">
                 <Typewriter
@@ -26,28 +26,28 @@ const Hero = () => {
                 />
               </span>
             </h2>
-            <p className="text-slate-600 mb-5 md:text-lg lg:text-xl">
+            <p className="text-secondary mb-5 max-w-xs md:max-w-sm md:text-lg lg:text-xl">
               Driven by <span className="font-semibold">passion</span> to make
               quality products made with a little bit of{" "}
               <span className="text-rose-500">love</span>.
             </p>
 
             <a
-              href="#"
-              className="py-2 px-4 rounded-full md:text-lg xl:text-xl text-base bg-primary hover:opacity-80 text-white focus:outline-2 focus:outline-dark"
+              href="#contact"
+              className="rounded-full bg-primary px-4 py-2 text-base text-white hover:opacity-80 focus:outline-2 focus:outline-dark md:text-lg xl:text-xl"
             >
-              Contact me
+              Contact Me
             </a>
           </div>
 
           <div className="w-full self-end px-4 lg:w-1/2">
-            <div className="mt-10 relative lg:mt-0 lg:right-0">
+            <div className="relative mt-10 lg:right-0 lg:mt-0">
               <img
                 src="./images/fauzan.png"
                 alt="M. Fauzan Fikri"
-                className="max-w-full mx-auto"
+                className="mx-auto max-w-full"
               />
-              <span className="absolute bottom-4 lg:bottom-10 left-1/2 -translate-x-1/2 -z-10 md:scale-125">
+              <span className="absolute bottom-4 left-1/2 -z-10 -translate-x-1/2 md:scale-125 lg:bottom-10">
                 <svg
                   width={400}
                   height={400}
