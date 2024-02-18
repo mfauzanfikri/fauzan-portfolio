@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-36">
+    <section id="home" className="pt-32 lg:pt-36">
       <div className="container mx-auto px-4">
         <div className="flex flex-col flex-wrap lg:flex-row">
           <div className="w-full self-center font-VT323 lg:w-1/2">
@@ -12,7 +12,7 @@ const Hero = () => {
                 M. Fauzan Fikri
               </span>
             </h1>
-            <h2 className="text-secondary mb-5 text-lg lg:text-3xl">
+            <h2 className="mb-5 text-lg text-secondary lg:text-3xl">
               I'm a{" "}
               <span className="font-bold text-dark">
                 <Typewriter
@@ -26,7 +26,7 @@ const Hero = () => {
                 />
               </span>
             </h2>
-            <p className="text-secondary mb-5 max-w-xs md:max-w-sm md:text-lg lg:text-xl">
+            <p className="mb-5 max-w-xs text-secondary md:max-w-sm md:text-lg lg:text-xl">
               Driven by <span className="font-semibold">passion</span> to make
               quality products made with a little bit of{" "}
               <span className="text-rose-500">love</span>.
