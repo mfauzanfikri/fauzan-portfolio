@@ -1,6 +1,6 @@
 const Loader = () => {
   return (
-    <div className="absolute z-[999999999] flex h-screen w-screen items-center justify-center bg-white">
+    <div className="fixed z-[999999999] flex h-screen w-screen items-center justify-center bg-white">
       <img src="./images/loader.gif" alt="loader" className="h-24 w-24" />
     </div>
   );
