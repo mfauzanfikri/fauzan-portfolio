@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-32 lg:pt-36">
+    <section id="home" className="pt-24 lg:pt-36">
       <div className="container mx-auto px-4">
         <div className="flex flex-col flex-wrap lg:flex-row">
           <div className="w-full self-center font-VT323 lg:w-1/2">
