@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
+  const [isImgLoading, setisImgLoading] = useState(true);
+
   return (
     <section id="home" className="pt-24 lg:pt-36">
       <div className="container mx-auto px-4">
@@ -46,12 +49,19 @@ const Hero = () => {
                 src="./images/fauzan.png"
                 alt="M. Fauzan Fikri"
                 className="mx-auto max-w-full"
+                width={445}
+                height={560}
+                onLoad={() => {
+                  setisImgLoading(false);
+                }}
               />
-              <span className="absolute bottom-4 left-1/2 -z-10 -translate-x-1/2 overflow-hidden sm:scale-125 lg:bottom-10">
+              <span
+                className={`${isImgLoading && "hidden"} absolute bottom-4 left-1/2 -z-10 -translate-x-1/2 overflow-hidden sm:scale-125 lg:bottom-10`}
+              >
                 <svg
                   viewBox="0 0 200 200"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="xs:w-[400px] w-80"
+                  className="w-80 xs:w-[400px]"
                 >
                   <path
                     fill="#0ea5e9"
