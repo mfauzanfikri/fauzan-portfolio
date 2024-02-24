@@ -10,7 +10,7 @@ const Portfolio = () => {
             <h2 className="mb-4 text-3xl font-bold sm:text-4xl lg:text-5xl">
               Latest Projects
             </h2>
-            <p className="text-secondary text-base font-medium md:text-lg">
+            <p className="text-base font-medium text-secondary md:text-lg">
               Here are some of my latest web projects with my clients. Please
               check it out. Hope you like it!
             </p>
@@ -30,7 +30,7 @@ const Portfolio = () => {
             <h3 className="mb-3 text-xl font-semibold text-dark">
               Caka Architect Studio
             </h3>
-            <p className="text-secondary text-base font-medium">
+            <p className="text-base font-medium text-secondary">
               Landing page for Caka Architect Studio. Visit the site{" "}
               <a href="https://www.cakaarchitect.com/" className="link">
                 here
@@ -96,7 +96,7 @@ const Portfolio = () => {
             <h3 className="mb-3 text-xl font-semibold text-dark">
               IT Device Management Information System
             </h3>
-            <p className="text-secondary text-base font-medium">
+            <p className="text-base font-medium text-secondary">
               A system for managing and monitoring IT device also generating
               periodically report with ease.
             </p>
@@ -158,7 +158,7 @@ const Portfolio = () => {
             </div>
             <h4 className="mt-4 text-sm text-primary">Landing Page and Blog</h4>
             <h3 className="mb-3 text-xl font-semibold text-dark">Fatur Shau</h3>
-            <p className="text-secondary text-base font-medium">
+            <p className="text-base font-medium text-secondary">
               Fatur Shau's personal self-branding landing page and blog
               optimized for SEO and social media sharing. Visit the site{" "}
               <a href="https://faturshau.com/" className="link">
@@ -303,7 +303,7 @@ const Portfolio = () => {
             <h3 className="mb-3 text-xl font-semibold text-dark">
               Letter Management Information System
             </h3>
-            <p className="text-secondary text-base font-medium">
+            <p className="text-base font-medium text-secondary">
               A system for managing incoming letter, outgoing letter, letter
               disposition, and letter archive integrated in one system.
             </p>
