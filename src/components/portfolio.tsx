@@ -32,7 +32,11 @@ const Portfolio = () => {
             </h3>
             <p className="text-base font-medium text-secondary">
               Landing page for Caka Architect Studio. Visit the site{" "}
-              <a href="https://www.cakaarchitect.com/" className="link">
+              <a
+                href="https://www.cakaarchitect.com/"
+                className="link"
+                target="_blank"
+              >
                 here
               </a>
               .
@@ -161,7 +165,7 @@ const Portfolio = () => {
             <p className="text-base font-medium text-secondary">
               Fatur Shau's personal self-branding landing page and blog
               optimized for SEO and social media sharing. Visit the site{" "}
-              <a href="https://faturshau.com/" className="link">
+              <a href="https://faturshau.com/" className="link" target="_blank">
                 here
               </a>
               .
