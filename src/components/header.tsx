@@ -81,7 +81,7 @@ const Header = () => {
                 </a>
 
                 <a
-                  href="#porfolio"
+                  href="#portfolio"
                   className="mx-8 py-2 text-base text-dark hover:text-primary lg:mx-2.5"
                   onClick={navItemHandler}
                 >
