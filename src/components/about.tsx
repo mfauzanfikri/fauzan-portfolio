@@ -12,8 +12,8 @@ const About = () => {
             </h2>
             <p className="max-w-xl text-base font-medium text-secondary lg:text-lg">
               Hello, my name is{" "}
-              <span className="font-semibold">M. Fauzan Fikri</span>. I'm 21
-              years old. I graduated from{" "}
+              <span className="font-semibold">M. Fauzan Fikri</span>. I
+              graduated from{" "}
               <span className="font-semibold">Sriwijaya University</span>{" "}
               majoring in{" "}
               <span className="font-semibold">Information System</span>.
