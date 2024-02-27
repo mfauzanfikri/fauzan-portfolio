@@ -98,7 +98,7 @@ const Footer = () => {
 
             {/* linkedin */}
             <a
-              href="https://www.linkedin.com/in/m-fauzan-fikri-813449240/"
+              href="https://www.linkedin.com/in/m-fauzan-fikri/"
               target="_blank"
               title="LinkedIn"
               className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-x-slate-300 hover:border-primary hover:bg-primary hover:text-white"

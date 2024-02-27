@@ -10,7 +10,7 @@ const About = () => {
             <h2 className="mb-3 text-3xl font-bold text-dark lg:text-4xl">
               TL;DR: I make websites
             </h2>
-            <p className="text-secondary max-w-xl text-base font-medium lg:text-lg">
+            <p className="max-w-xl text-base font-medium text-secondary lg:text-lg">
               Hello, my name is{" "}
               <span className="font-semibold">M. Fauzan Fikri</span>. I'm 21
               years old. I graduated from{" "}
@@ -92,7 +92,7 @@ const About = () => {
 
               {/* linkedin */}
               <a
-                href="https://www.linkedin.com/in/m-fauzan-fikri-813449240/"
+                href="https://www.linkedin.com/in/m-fauzan-fikri/"
                 target="_blank"
                 title="LinkedIn"
                 className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-x-slate-300 hover:border-primary hover:bg-primary hover:text-white"
