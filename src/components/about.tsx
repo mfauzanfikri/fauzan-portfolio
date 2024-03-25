@@ -11,16 +11,15 @@ const About = () => {
               TL;DR: I make websites
             </h2>
             <p className="max-w-xl text-base font-medium text-secondary lg:text-lg">
-              Hello, my name is{" "}
-              <span className="font-semibold">M. Fauzan Fikri</span>. I
-              graduated from{" "}
+              Hello, I'm <span className="font-semibold">M. Fauzan Fikri</span>.
+              I graduated from{" "}
               <span className="font-semibold">Sriwijaya University</span>{" "}
               majoring in{" "}
               <span className="font-semibold">Information System</span>.
               Currently, I'm a freelancer{" "}
               <span className="font-semibold">full-stack web developer</span>.
               As a full-stack web developer, I have produced several web
-              projects with my clients. I have an ambition to deliver a high
+              projects with my clients. I have an ambition to deliver high
               quality websites in an efficient way based on client provided
               requirements. Also with my strict nature, I have my own descipline
               to write clean code. Last but not least, I'm eager to keep
