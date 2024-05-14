@@ -7,7 +7,6 @@ const Footer = () => {
             <h2 className="text-4xl font-bold text-white">M. Fauzan Fikri</h2>
             <h3 className="mb-2 text-2xl font-bold">Contact Me</h3>
             <p>mfauzanfikri09@gmail.com</p>
-            <p>Jl. D.I. Panjaitan, Seberang Ulu II</p>
             <p>Palembang</p>
           </div>
           <div className="mb-12 w-full px-4 md:w-1/2">
