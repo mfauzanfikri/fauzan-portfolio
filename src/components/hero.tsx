@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="relative mt-10 lg:right-0 lg:mt-0">
               <img
-                src="./images/fauzan.png"
+                src="./images/hero-img.png"
                 alt="M. Fauzan Fikri"
                 className="mx-auto max-w-full"
                 width={445}
