@@ -31,7 +31,7 @@ const Portfolio = () => {
             <p className="text-base font-medium text-secondary">
               Fatur Shau's personal self-branding landing page and blog
               optimized for SEO and social media sharing. Visit the site{" "}
-              <a href="https://faturshau.com/" className="link" target="_blank">
+              <a href="https://www.figma.com/proto/PjmiMKiADoLmvz0K3jYn3f/Wuarek2?node-id=1-36&p=f&t=4QQhUdiKqW8IlVu5-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A70" className="link" target="_blank">
                 here
               </a>
               .
